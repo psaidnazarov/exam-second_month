@@ -1,0 +1,870 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.back-link {
+    margin-top: 100px;
+    padding: 30px 0;
+}
+.go-back__link {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+/* - - - Header section - - - */
+.site-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 100px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    background-color: #191919;
+    border-bottom: 1px solid rgba(118, 121, 126, 0.576);
+}
+.site-nav__list {
+    list-style-type: none;
+}
+.site-nav__item {
+
+}
+.site-nav__link {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-right: 34px;
+}
+.site-nav__link:hover {
+    color: #D87D4A;
+}
+.site-nav__bars {
+    color: #FFFFFF;
+}
+/* - - - /Header section - - - */
+
+/* - - - Headphone card section - - - */
+.headphone-card__section {
+    margin: 50px 0;
+}
+.card-image {
+    background-color: #F1F1F1;
+    border-radius: 8px;
+    padding: 50px;
+    text-align: center;
+}
+.card-new__heading {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #D87D4A;
+    margin: 24px 0;
+}
+.card-heading {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.card-title {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    opacity: 0.5;
+    margin-bottom: 24px;
+}
+.card-price {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1.28571px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.card-amount {
+    padding: 15px;
+    background-color: #F1F1F1;
+}
+.card-amount__index {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 13px;
+    padding: 20px;
+    color: #000000;
+}
+.minus, .plus {
+    opacity: 0.25;
+}
+.card-features {
+    margin: 50px 0;
+}
+.card-feature__heading {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.857143px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 24px;
+}
+.card-feature__title {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    opacity: 0.5;
+    margin: 24px 0;
+    padding-right: 40px;
+}
+.card-box__number {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #D87D4A;
+    margin-right: 24px;
+}
+/* - - - /Headphone card section - - - */
+
+/* - - - Main section - - - */
+.button {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    background-color: #D87D4A;
+}
+.button:hover {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: none;
+    background-color: #FBAF85;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.btn-link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/* - - - /Main section - - - */
+
+/* - - - More products section - - - */
+.more-products {
+    margin: 100px 0;
+}
+.more-products__heading {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.857143px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 60px;
+}
+.more-card {
+    text-align: center;
+}
+.more-card__image {
+    background-color: #F1F1F1;
+    border-radius: 8px;
+}
+.more-card__heading {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 1.71429px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 20px 0;
+}
+/* - - - /More products section - - - */
+
+/* - - - Products section - - - */
+.products-section {
+    padding: 50px 0;
+}
+.product-card {
+    text-align: center;
+    background: #F1F1F1;
+    border-radius: 8px;
+    /* height: 0 auto; */
+    padding-bottom: 22px;
+    margin-top: 60px;
+}
+.product-card__image {
+    position: relative;
+    top: -50px;
+}
+.pruduct-card__heading {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1.07143px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.product-card-link {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #00000080;
+    text-decoration: none;
+}
+.product-card-link:hover {
+    color: #D87D4A;
+}
+.product-card-right {
+    color: #D87D4A;
+}
+/* - - - /Products section - - - */
+
+/* - - - Location section - - - */
+.location-section {
+    margin: 50px 0;
+}
+.location-heading {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.location-heading__best {
+    color: #D87D4A;
+}
+.location-title {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.5;
+}
+/* - - - /Location section - - - */
+
+/* - - - Footer section - - - */
+.footer-section {
+    background-color: #101010;
+    margin-top: 50px;
+}
+.footer-bg {
+    background-color: #101010;
+    padding: 50px 0;
+}
+.footer-links {
+    padding-top: 50px;
+}
+.footer-list {
+    list-style-type: none;
+}
+.footer-link {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-link:hover {
+    color: #D87D4A;
+}
+.footer-title {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.footer-copyright {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.footer-icon__link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+.footer-icon__link:hover {
+    text-decoration: none;
+    color: #D87D4A;
+    font-size: 24px;
+}
+.footer-icons {
+    padding-bottom: 50px;
+}
+/* - - - /Footer section - - - */
+
+
+
+
+
+@media (max-width:375px) {
+    .container {
+        width: 370px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .site-nav__links {
+        display: none;
+    }
+        /* .navbar {
+        width: 100%;
+        box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+    }
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 62px;
+    }
+    .navbar .menu-items {
+        display: flex;
+    }
+    .navbar .nav-container li {
+        list-style: none;
+    }
+    .navbar .nav-container a {
+        text-decoration: none;
+        color: #0e2431;
+        font-weight: 500;
+        font-size: 1.2rem;
+        padding: 0.7rem;
+    }
+    .navbar .nav-container a:hover{
+        font-weight: bolder;
+    }
+    .nav-container {
+        display: block;
+        position: relative;
+        height: 60px;
+    }
+    .nav-container .checkbox {
+        position: absolute;
+        display: block;
+        height: 32px;
+        width: 32px;
+        top: 20px;
+        left: 20px;
+        z-index: 5;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .nav-container .hamburger-lines {
+        display: block;
+        height: 26px;
+        width: 32px;
+        position: absolute;
+        top: 17px;
+        left: 20px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .nav-container .hamburger-lines .line {
+        display: block;
+        height: 4px;
+        width: 100%;
+        border-radius: 10px;
+        background: #0e2431;
+    }
+    .nav-container .hamburger-lines .line1 {
+        transform-origin: 0% 0%;
+        transition: transform 0.4s ease-in-out;
+    }
+    .nav-container .hamburger-lines .line2 {
+        transition: transform 0.2s ease-in-out;
+    }
+    .nav-container .hamburger-lines .line3 {
+        transform-origin: 0% 100%;
+        transition: transform 0.4s ease-in-out;
+    }
+    .navbar .menu-items {
+        padding-top: 120px;
+        box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+        height: 100vh;
+        width: 100%;
+        transform: translate(-150%);
+        display: flex;
+        flex-direction: column;
+        margin-left: -40px;
+        padding-left: 50px;
+        transition: transform 0.5s ease-in-out;
+        text-align: center;
+    }
+    .navbar .menu-items li {
+        margin-bottom: 1.2rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .logo {
+        position: absolute;
+        top: 5px;
+        right: 15px;
+        font-size: 1.2rem;
+        color: #0e2431;
+    }
+    .nav-container input[type="checkbox"]:checked ~ .menu-items {
+        transform: translateX(0);
+    }
+    .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+        transform: rotate(45deg);
+    }
+    .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+        transform: scaleY(0);
+    }
+    .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+        transform: rotate(-45deg);
+    }
+    .nav-container input[type="checkbox"]:checked ~ .logo{
+        display: none;
+    } */
+    
+    .head-images__smallone {
+        background: url(../images/mobile/headphones/headphones1/hdm1-man.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 100px;
+        border-radius: 8px;
+        margin-bottom: 24px;
+    }
+    .head-images__smalltwo {
+        background: url(../images/mobile/headphones/headphones1/hdm1swag.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 100px;
+        border-radius: 8px;
+    }
+    .head-images__big {
+        background: url(../images/mobile/headphones/headphones1/hdm1-3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 210px 0;
+        border-radius: 8px;
+        margin-top: 24px;
+    }
+    .more-card {
+        margin-bottom: 40px;
+    }
+    .more-card__image {
+        padding: 20px 0;
+    }
+    
+    .location-man__image {
+        background: url(../images/mobile/home/mobile-man.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 200px 100px;
+        border-radius: 8px;
+    }
+    .location-heading {
+        padding: 30px 20px;
+    }
+    .location-title {
+        padding: 0 20px;
+    }
+    .footer-links {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .footer-item {
+        margin: 15px 0;
+    }
+    .footer-logo {
+        padding-bottom: 20px;
+    }
+    .footer-title {
+        text-align: center;
+        padding: 0 20px;
+    }
+    .footer-copyright {
+        text-align: center;
+        margin: 50px 0;
+    }
+    .footer-icons {
+        text-align: center;
+    }
+    .footer-icon__link {
+        padding: 0 10px;
+    }
+}
+@media (min-width:376px) and (max-width:768px) {
+    .container {
+        width: 720px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .site-nav__links {
+        display: none;
+    }
+    .headphone-card {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .card-image {
+        margin-right: 60px;
+    }
+    .card-box {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-right: 100px;
+    }
+    .head-images {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .head-images__two {
+        width: 40%;
+    }
+    .head-images__smallone {
+        background: url(../images/tablet/headphones/headphones1/hdt-man.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 100px;
+        border-radius: 8px;
+        margin-bottom: 24px;
+    }
+    .head-images__smalltwo {
+        background: url(../images/tablet/headphones/headphones1/hdt-swag.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 100px;
+        border-radius: 8px;
+    }
+    .head-images__big {
+        background: url(../images/tablet/headphones/headphones1/hdt-3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 150px;
+        border-radius: 8px;
+        width: 55%;
+    }
+    .more-cards {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .more-card {
+        width: 32%;
+        margin-bottom: 40px;
+    }
+    .more-card__image {
+        padding: 40px 0;
+    }
+
+    .products-section {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .product-card {
+        width: 33%;
+        padding-bottom: 10px;
+        margin: 0 5px;
+        margin-top: 50px;
+    }
+    .location-man__image {
+        background: url(../images/tablet/home/tablet-man.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 200px 100px;
+        border-radius: 8px;
+    }
+    .location-heading {
+        font-size: 40px;
+        line-height: 44px;
+        padding: 30px 90px;
+    }
+    .location-title {
+        padding: 0 70px;
+    }
+    .footer-links {
+        margin-bottom: 40px;
+    }
+    .footer-logo {
+        padding-bottom: 20px;
+    }
+    .footer-list {
+        float: left;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .footer-item {
+        padding-right: 30px;
+    }
+    .footer-title {
+        padding-right: 25px;
+    }
+    .footer-bottom {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 50px;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    .footer-icon__link {
+        padding-right: 20px;
+    }
+}
+@media (min-width:769px) and (max-width:1440px) {
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .site-nav__links {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .site-nav__bars {
+        display: none;
+    }
+    .headphone-type {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .headphone-card {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .card-image {
+        width: 40%;
+        padding: 100px 0;
+        margin-right: 60px;
+    }
+    .card-detail {
+        width: 50%;
+        padding-right: 150px;
+    }
+    .card-heading {
+        font-size: 40px;
+    }
+    .card-features {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .card-feature {
+        width: 70%;
+    }
+    .head-images {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .head-images__two {
+        width: 40%;
+    }
+    .head-images__smallone {
+        background: url(../images/tablet/headphones/headphones1/hdt-man.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 150px;
+        border-radius: 8px;
+        margin-bottom: 24px;
+    }
+    .head-images__smalltwo {
+        background: url(../images/tablet/headphones/headphones1/hdt-swag.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 150px;
+        border-radius: 8px;
+    }
+    .head-images__big {
+        background: url(../images/tablet/headphones/headphones1/hdt-3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 300px;
+        border-radius: 8px;
+        width: 55%;
+    }
+    .more-cards {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .more-card {
+        width: 32%;
+        margin-bottom: 40px;
+    }
+    .more-card__image {
+        padding: 40px 0;
+    }
+
+    .products-section {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .product-card {
+        width: 30%;
+        padding-bottom: 10px;
+        margin: 0 20px;
+        margin-top: 50px;
+    }
+    .location-section {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: row-reverse;
+                flex-direction: row-reverse;
+    }
+    .location-man__image {
+        background: url(../images/desktop/home/desktop-man-earphone.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 300px 0px;
+        border-radius: 8px;
+        width: 45%;
+    }
+    .location-text {
+        width: 45%;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .location-heading {
+        font-size: 40px;
+        line-height: 44px;
+        padding: 30px 40px;
+        margin-top: 150px;
+    }
+    .location-title {
+        padding: 0 70px;
+    }
+    .footer-links {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-bottom: 40px;
+    }
+    .footer-list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .footer-item {
+        padding-right: 30px;
+    }
+    .footer-title {
+        margin-left: 150px;
+        padding-right: 450px;
+    }
+    .footer-bottom {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 50px;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    .footer-copyright {
+        margin-right: 220px;
+    }
+    .footer-icon__link {
+        padding-right: 20px;
+    }
+}
